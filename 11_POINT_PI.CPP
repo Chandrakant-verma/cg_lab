@@ -14,7 +14,7 @@ int main() {
     
     // Fixed color (0-15)
     color = WHITE;  // or use numbers like 4 for red, 14 for yellow, etc.
-    
+     
     // Plot the pixel
     putpixel(x, y, color);
     

@@ -17,7 +17,7 @@ int main() {
     float dx = x2 - x1;
     float dy = y2 - y1;
     
-    if (dx > dy)
+    if (dx > dy) 
         steps = dx;
     else
         steps = dy;

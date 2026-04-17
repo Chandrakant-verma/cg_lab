@@ -15,7 +15,7 @@ int main() {
     // Triplex font (large stylish font)
     settextstyle(TRIPLEX_FONT, HORIZ_DIR, 3);
     outtextxy(50, 100, "TRIPLEX FONT");
-
+ 
     // Small font
     settextstyle(SMALL_FONT, HORIZ_DIR, 1);
     outtextxy(50, 180, "SMALL FONT");

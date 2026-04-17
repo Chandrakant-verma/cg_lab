@@ -6,7 +6,7 @@ int main() {
     initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
     
     int x1, y1, x2, y2;
-    int dx, dy, p, x, y;
+    int dx, dy, p, x, y;  
     
     // Fixed coordinates (no user input)
     x1 = 100; y1 = 100;  // Starting point
@@ -17,7 +17,7 @@ int main() {
     
     x = x1;
     y = y1;
-    
+     
     // Initial decision parameter
     p = 2 * dy - dx;
     
